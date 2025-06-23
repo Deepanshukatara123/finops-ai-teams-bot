@@ -2,9 +2,9 @@
 
 A conversational Microsoft Teams bot built with Azure Bot Framework + Azure OpenAI that:
 
-- 💰 Analyzes underutilized Azure resources
-- 🧠 Summarizes cost-saving recommendations using GPT
-- 💬 Responds to FinOps-related queries in Teams
+-  Analyzes underutilized Azure resources
+-  Summarizes cost-saving recommendations using GPT
+-  Responds to FinOps-related queries in Teams
 
 ![FinOpsBot Logo](assets/logo.png)
 
@@ -25,7 +25,7 @@ A conversational Microsoft Teams bot built with Azure Bot Framework + Azure Open
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repo
 ```bash
@@ -59,7 +59,7 @@ python bot_app.py
 
 ---
 
-## 🐳 Docker Support
+##  Docker Support
 
 ### Dockerfile
 ```Dockerfile
@@ -78,7 +78,7 @@ docker run -p 3978:3978 --env-file .env finops-ai-teams-bot
 
 ---
 
-## ✅ GitHub Actions CI/CD
+##  GitHub Actions CI/CD
 
 ### `.github/workflows/ci.yml`
 ```yaml
@@ -111,7 +111,7 @@ jobs:
 
 ---
 
-## 📁 Code Overview
+##  Code Overview
 
 | File | Purpose |
 |------|---------|
@@ -125,7 +125,7 @@ jobs:
 
 ---
 
-## ✅ Tests
+##  Tests
 
 Add unit tests with `pytest`:
 ```
@@ -136,7 +136,7 @@ tests/
 
 ---
 
-## 📌 Future Enhancements
+##  Future Enhancements
 - AutoGen integration for multi-agent orchestration
 - Adaptive Cards for rich Teams responses
 - Terraform optimizer agent
