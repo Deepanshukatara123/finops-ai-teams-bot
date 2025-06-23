@@ -1,0 +1,8 @@
+flask
+openai
+azure-identity
+azure-mgmt-resource
+azure-mgmt-costmanagement
+botbuilder-core
+botbuilder-schema
+pytest
